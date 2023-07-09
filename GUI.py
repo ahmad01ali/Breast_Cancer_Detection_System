@@ -48,18 +48,23 @@ def predict_image():
 
         # Check aspect ratio to determine if it resembles the shape of a breast
         if 0.8 <= aspect_ratio <= 1.2:
+            start_time = time.time()  # Start measuring the time
             pred = model.predict(img_array)
+            end_time = time.time()  # End measuring the time
+            elapsed_time = end_time - start_time  # Calculate the elapsed time
             threshold = 0.5
             class_label = "No Cancer" if pred[0][0] >= threshold else "Cancer"
             result_label.config(text=f"{class_label} Detected", fg="red" if class_label == "Cancer" else "green")
 
             # Read the result using text-to-speech
             read_result(class_label)
+
+            # Display the elapsed time
+            result_label_time.config(text=f"Required Prediction Time: {elapsed_time:.2f} seconds" ,fg="blue")
         else:
             show_error_message("No valid image selected.")
     else:
         show_error_message("No valid image selected.")
-
 
 
 # Function to read the result using text-to-speech
@@ -80,10 +85,9 @@ def read_result(class_label):
         width, height = img.size
         aspect_ratio = width / height
         engine.say("Breast cancer detected." if class_label == "Cancer" else "No breast cancer detected.")
-    elif img_array is not None and img_array.shape !=(1, 64, 64, 3):
+    elif img_array is not None and img_array.shape != (1, 64, 64, 3):
         engine.say("Invalid image selected for unknown result")
     engine.runAndWait()
-
 
 
 # Function to remove the image
@@ -92,6 +96,7 @@ def remove_image():
     img_array = None
     image_label.config(image="")
     result_label.config(text="")
+    result_label_time.config(text="")  # Reset the elapsed time
 
 
 # Function to check if the image is considered colorful
@@ -105,23 +110,25 @@ def is_colorful_image(img):
 # Function to show error messages
 def show_error_message(message):
     result_label.config(text=message, fg="black")
+    result_label_time.config(text="")  # Reset the elapsed time
 
 
 # Create the main window
 window = tk.Tk()
 window.title("Breast Cancer Detection")
-window.geometry("400x550")  # Increased the height to accommodate larger images
+window.geometry("400x600")  # Increased the height to accommodate larger images
 window.configure(bg="#d6cadd")
 
 # Create title label with blue color (hexadecimal code: #236B8E)
-title_label = tk.Label(window, text="Welcome To Breast Cancer Detection", font=("Arial", 16), fg="#990000", bg="#d6cadd")
+title_label = tk.Label(window, text="Welcome To Breast Cancer Detection", font=("Arial", 16), fg="#990000",
+                       bg="#d6cadd")
 title_label.pack(pady=10)
 
 # Create image label
 image_label = tk.Label(window, bg="#d6cadd")
 image_label.pack(pady=10)
 
-# Create button to open the image
+# Create button toopen the image
 open_button = tk.Button(window, text="Open Image", command=open_image, font=("Arial", 14))
 open_button.pack(pady=10)
 
@@ -136,6 +143,10 @@ predict_button.pack(pady=10)
 # Create label to display the prediction result
 result_label = tk.Label(window, text="", font=("Arial", 14), bg="#d6cadd")
 result_label.pack(pady=10)
+
+# Create label to display the elapsed time
+result_label_time = tk.Label(window, text="", font=("Arial", 12), bg="#d6cadd")
+result_label_time.pack(pady=5)
 
 # Run the GUI main loop
 window.mainloop()
