@@ -1,5 +1,15 @@
 # Breast-Cancer-Detection-System
-![GitHub Deployment Status](https://img.shields.io/github/deployments/vaishnavilugade/Breast-Cancer-Detection-System/PRODUCTION?label=deployment&logo=github&logoColor=white)
+<!-- ![Last Commit](https://img.shields.io/github/last-commit/vaishnavilugade/Breast-Cancer-Detection-System) 
+![Open Issues](https://img.shields.io/github/issues/vaishnavilugade/Breast-Cancer-Detection-System)-->
+
+![Stars](https://img.shields.io/github/stars/vaishnavilugade/Breast-Cancer-Detection-System)
+![Watchers](https://img.shields.io/github/watchers/vaishnavilugade/Breast-Cancer-Detection-System?style=social)
+![Code Size](https://img.shields.io/github/languages/code-size/vaishnavilugade/Breast-Cancer-Detection-System)
+![Top Language](https://img.shields.io/github/languages/top/vaishnavilugade/Breast-Cancer-Detection-System)
+<!-- ![Language Count](https://img.shields.io/github/languages/count/vaishnavilugade/Breast-Cancer-Detection-System) -->
+
+
+
 
 The Breast Cancer Detection System is an application developed to predict whether an input image represents a breast with cancer or not. It utilizes a deep learning model trained on a dataset of breast images to provide accurate predictions.
 <br><br>
