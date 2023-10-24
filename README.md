@@ -8,7 +8,7 @@
 ![Top Language](https://img.shields.io/github/languages/top/vaishnavilugade/Breast-Cancer-Detection-System)
 <!-- ![Language Count](https://img.shields.io/github/languages/count/vaishnavilugade/Breast-Cancer-Detection-System) -->
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 <!-- ```bash
 
