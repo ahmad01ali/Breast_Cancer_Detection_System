@@ -25,24 +25,33 @@ The Breast Cancer Detection System is an application developed to predict whethe
 
 <!-- ![Screenshot 2023-07-03 231325](https://github.com/vaishnavilugade/Breast-Cancer-Detection-System/assets/108423518/d2d383b8-c16a-46c9-b703-dc5eff40b082) -->
 
-# Languages and framework used :
-• Python: The programming language used for the project.
-
-• NumPy: A library for numerical calculations and operations on arrays and matrices.
-
-• TensorFlow: A popular machine learning library for building and training machine learning models.
-
-• tkinter: A standard Python interface to the Tk GUI toolkit for creating graphical user interfaces.
-
-• PIL (Pillow): Python Imaging Library (Pillow) is an image processing library in Python, which adds image processing capabilities to your Python interpreter.
 
 # Clone
 ```
 https://github.com/vaishnavilugade/Breast-Cancer-Detection-System.git
 ```
 
-[![Connect with Me on GitHub](https://img.shields.io/badge/GitHub-Profile-red?style=flat-square&logo=github&labelColor=black)](https://github.com/vaishnavilugade)
-[![Connect with Me on linkedin](https://img.shields.io/badge/linkedin-Profile-blue?style=flat-square&logo=linkedin&labelColor=black)](https://www.linkedin.com/in/vaishnvilugade)
-[![Connect with Me on codechef](https://img.shields.io/badge/codechef-Profile-green?style=flat-square&logo=codechef&labelColor=black)](https://www.codechef.com/vaishnvilugade)
-[![Twitter](https://img.shields.io/badge/twitter-Profile-blue?style=flat-square&logo=twitter&labelColor=black)](https://twitter.com/vaishnavilugade)
+# Languages and framework used :
+• __Python :__ The programming language used for the project.
+
+• **NumPy :** A library for numerical calculations and operations on arrays and matrices.
+
+• __TensorFlow :__ A popular machine learning library for building and training machine learning models.
+
+• __tkinter :__ A standard Python interface to the Tk GUI toolkit for creating graphical user interfaces.
+
+• __PIL (Pillow) :__ Python Imaging Library (Pillow) is an image processing library in Python, which adds image processing capabilities to your Python interpreter.
+
+<br>
+<div align="center">
+  <a href="https://twitter.com/vaishnavilugade">
+    <img src="https://img.shields.io/badge/twitter-Profile-blue?style=flat-square&logo=twitter&labelColor=black" alt="Twitter Badge"></a>
+  <a href="https://github.com/vaishnavilugade">
+    <img src="https://img.shields.io/badge/GitHub-Profile-red?style=flat-square&logo=github&labelColor=black"></a>
+  </a>
+  <a href="https://www.codechef.com/vaishnvilugade">
+    <img src="https://img.shields.io/badge/codechef-Profile-green?style=flat-square&logo=codechef&labelColor=black"></a>
+  <a href="https://www.linkedin.com/in/vaishnvilugade">
+    <img src="https://img.shields.io/badge/linkedin-Profile-blue?style=flat-square&logo=linkedin&labelColor=black"></a>
+</div>
 
