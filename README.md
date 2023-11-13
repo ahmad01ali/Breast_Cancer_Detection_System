@@ -64,17 +64,24 @@ pip install streamlit
 ### Step 2: Create a Folder and App File
 Create a new folder for your Streamlit app. In that folder, create a file called ```app.py```
 
+<br>
+
 ### Step 3: Paste the code
 Visit the  [app.py](https://github.com/vaishnavilugade/Breast-Cancer-Detection-System/blob/main/app.py)  file in  repository. Copy the content of ```app.py``` and paste it into your local app.py file.
+
+<br>
 
 ### Step 4: Run the App
 ```
 python -m streamlit run app.py
 ```
 
+<br>
+
 It may take some time for the app to run. Once it's ready, you should see a link in the terminal. Click the link to open the app in your web browser.
 
-That's it! You've successfully set up and run your Streamlit app.
+__That's it! You've successfully set up and run your Streamlit app.__
+
 <br>
 
 <div align="center">
