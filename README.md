@@ -84,6 +84,12 @@ __That's it! You've successfully set up and run your Streamlit app.__
 
 <br>
 
+![Screenshot 2023-11-13 233647](https://github.com/vaishnavilugade/Breast-Cancer-Detection-System/assets/108423518/097a16d2-5245-4673-98d8-561b8793dd8d)
+
+
+<br>
+
+
 <div align="center">
   <a href="https://twitter.com/vaishnavilugade">
     <img src="https://img.shields.io/badge/twitter-Profile-blue?style=flat-square&logo=twitter&labelColor=black" alt="Twitter Badge"></a>
