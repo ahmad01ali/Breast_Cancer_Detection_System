@@ -45,7 +45,37 @@ https://github.com/vaishnavilugade/Breast-Cancer-Detection-System.git
 
 • __PIL (Pillow) :__ Python Imaging Library (Pillow) is an image processing library in Python, which adds image processing capabilities to your Python interpreter.
 
+• __Streamlit :__[Streamlit](https://streamlit.io/) is a powerful Python library for creating web applications with minimal effort.
+
+
 <br>
+
+## Getting Started with Streamlit
+
+Follow these steps to install Streamlit and run the app:
+
+### Step 1: Install Streamlit
+
+```
+pip install streamlit
+```
+<br>
+### Step 2: Create a Folder and App File
+Create a new folder for your Streamlit app. In that folder, create a file called ```app.py```
+
+### Step 3: Paste the code
+Visit the app.py file in  repository. Copy the content of ```app.py``` and paste it into your local app.py file.
+
+### Step 4: Run the App
+```
+python -m streamlit run app.py
+```
+
+It may take some time for the app to run. Once it's ready, you should see a link in the terminal. Click the link to open the app in your web browser.
+
+That's it! You've successfully set up and run your Streamlit app.
+<br>
+
 <div align="center">
   <a href="https://twitter.com/vaishnavilugade">
     <img src="https://img.shields.io/badge/twitter-Profile-blue?style=flat-square&logo=twitter&labelColor=black" alt="Twitter Badge"></a>
