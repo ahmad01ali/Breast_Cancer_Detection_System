@@ -60,6 +60,7 @@ Follow these steps to install Streamlit and run the app:
 pip install streamlit
 ```
 <br>
+
 ### Step 2: Create a Folder and App File
 Create a new folder for your Streamlit app. In that folder, create a file called ```app.py```
 
