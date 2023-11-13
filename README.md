@@ -4,7 +4,6 @@
 
 ![Stars](https://img.shields.io/github/stars/vaishnavilugade/Breast-Cancer-Detection-System)
 [![Django CI](https://github.com/vaishnavilugade/Breast-Cancer-Detection-System/actions/workflows/django.yml/badge.svg)](https://github.com/vaishnavilugade/Breast-Cancer-Detection-System/actions/workflows/django.yml)
-
 ![Watchers](https://img.shields.io/github/watchers/vaishnavilugade/Breast-Cancer-Detection-System?style=social)
 ![Code Size](https://img.shields.io/github/languages/code-size/vaishnavilugade/Breast-Cancer-Detection-System)
 ![Top Language](https://img.shields.io/github/languages/top/vaishnavilugade/Breast-Cancer-Detection-System)
