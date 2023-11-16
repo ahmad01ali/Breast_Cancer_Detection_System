@@ -22,6 +22,7 @@ Predicts whether the type of breast cancer is Malignant or Benign
 `Breast cancer is the most common type of cancer in women`. When cancers are found early, they can often be cured. There are some devices that detect the breast cancer but many times they lead to false positives, which results is patients undergoing painful, expensive surgeries that were not even necessary. <br> These type of cancers are called `benign` which do not require surgeries and we can reduce these unnecessary surgeries by using Machine Learning. We take a dataset of the previous breast cancer patients and `train the model to predict whether the cancer is benign or malignant`. These predictions will help doctors to do surgeries only when the cancer is malignant, thus reducing the unnecessary surgeries for woman. <br><br>
 The Breast Cancer Detection System is an application developed to predict whether an input image represents a breast with cancer or not. It utilizes a deep learning model trained on a dataset of breast images to provide accurate predictions.
 <br><br> 
+# Graphical User Interface (GUI) :
 
 ![Screenshot 2023-07-03 231406](https://github.com/vaishnavilugade/Breast-Cancer-Detection-System/assets/108423518/b092c250-afb4-4a41-983c-2812d9b39542)
 ![Screenshot 2023-07-03 231450](https://github.com/vaishnavilugade/Breast-Cancer-Detection-System/assets/108423518/49917820-515c-4b72-a55e-7c57b538ce84)
