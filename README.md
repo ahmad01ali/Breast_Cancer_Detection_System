@@ -7,7 +7,7 @@
 ![Watchers](https://img.shields.io/github/watchers/vaishnavilugade/Breast-Cancer-Detection-System?style=social)
 ![Code Size](https://img.shields.io/github/languages/code-size/vaishnavilugade/Breast-Cancer-Detection-System)
 ![Top Language](https://img.shields.io/github/languages/top/vaishnavilugade/Breast-Cancer-Detection-System)
-[![Contributor Count](https://img.shields.io/github/contributors/vaishnavilugade/Breast-Cancer-Detection-System)](https://github.com/vaishnavilugade/Breast-Cancer-Detection-System/graphs/contributors)
+[![Collaborators](https://img.shields.io/github/collaborators/vaishnavilugade/Breast-Cancer-Detection-System)](https://github.com/vaishnavilugade/Breast-Cancer-Detection-System/graphs/collaborators)
 
 <!-- ![Language Count](https://img.shields.io/github/languages/count/vaishnavilugade/Breast-Cancer-Detection-System) -->
 
