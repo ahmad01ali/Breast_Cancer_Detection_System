@@ -92,6 +92,14 @@ __That's it! You've successfully set up and run your Streamlit app.__
 
 <br>
 
+<h1 align="center">
+  <strong>🌟 If you find this project helpful, please star it! 🌟</strong>
+</h1>
+
+
+
+<br>
+
 
 <div align="center">
   <a href="https://twitter.com/vaishnavilugade">
