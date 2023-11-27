@@ -6,6 +6,8 @@ from tensorflow.keras.models import load_model
 import pyttsx3
 
 
+
+
 from PIL import ImageEnhance, ImageChops
 
 # Load the trained model
